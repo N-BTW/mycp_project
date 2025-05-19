@@ -64,3 +64,15 @@ The design behind the utility is based on C system calls such as: ```(open, read
   chmod u+x system_call_analysis.sh
   ./system_call_analysis.sh
 ```
+
+## System Call Analysis (In Depth)
+1. Speed:
+mycp is 4 times faster than cp because it uses less system calls (38 vs 101).
+
+2. System Calls:
+
+  cp does extra calls: Uses mmap for large files.
+
+  mycp keeps it simple: Uses basic read/write for copying.
+
+
