@@ -101,5 +101,12 @@ This was the valgrind output:
 Thankfully due to the generous steps and comprehensive explanations provided in every file and project there were close to no challenges faced, except for an edge case or two when handling the writing or reading data if it were to read less bytes than it is supposed to.
 
 ## Team Contributions
-Meshari Alluhaibi: Handled the file_ops .c and .h as well as the documentation.
-Abdulrahman
+Meshari Mohammed Alluhaibi: Handled the file_ops .c and .h as well as the documentation.
+
+Abdulrahman Ahmad AlQahtany: Handled the mycp .c and .h and the Makefile.
+
+Mohammed Khalid Alzamzami: Handled main.c and system_call_analysis.sh
+
+Hosam Mohammed Alzahrani: Handled the test_copy.sh.
+
+
