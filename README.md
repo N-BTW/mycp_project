@@ -5,12 +5,12 @@ A simple file copy utility implemented in C using system calls.
 ## Project Structure
 
 ```
-mycp_project/
-├── file_ops.c
-├── file_ops.h
-├── mycp.c
-├── Makefile
-└── README.md
+  mycp_project/
+  ├── file_ops.c
+  ├── file_ops.h
+  ├── mycp.c
+  ├── Makefile
+  └── README.md
 ```
 
 ## Files
