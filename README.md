@@ -22,20 +22,27 @@ mycp_project/
 ## Building
 
 ```sh
-make
+  make
 ```
 
 ## Usage & Example
 
 ```sh
-./mycp <source_file> <destination_file>
+  ./mycp <source_file> <destination_file>
 
-./mycp file1.txt file2.txt
+  ./mycp file1.txt file2.txt
 ```
 
 ## Test Script
 ```sh
-#give permissions
-chmod u+x test_copy.sh
-./test_copy.sh
+  #give permissions
+  chmod u+x test_copy.sh
+  ./test_copy.sh
+```
+
+## System Call Analysis
+```sh
+  #give permissions
+  chmod u+x system_call_analysis.sh
+  ./system_call_analysis.sh
 ```
