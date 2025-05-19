@@ -17,7 +17,7 @@ mycp_project/
 
 - **file_ops.c / file_ops.h**: Functions for file operations (open, read, write, close).
 - **mycp.c**: Main program implementing the copy logic.
-- **Makefile**: Build instructions for the project.
+- **Makefile**: Build making instructions and flags for the project.
 
 ## Building
 
