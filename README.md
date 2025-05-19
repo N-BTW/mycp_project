@@ -62,6 +62,13 @@ The design behind the utility is based on C system calls such as: ```(open, read
   ./test_copy.sh
 ```
 
+## Test Script Verify
+It will output 
+
+```Test Passed: file copied successfully.``` 
+
+on sucessful and otherwise if any issues happen
+
 ## System Call Analysis
 ```sh
   #give permissions
@@ -102,7 +109,4 @@ This was the valgrind output:
 ```
 
 ## Challenges Faced In Development
-Thankfully due to the generous steps and comprehensive explanations provided in every file and project there were close to no challenges faced, except for an edge case or two when handling the writing or reading data if it were to read less bytes than it is supposed to.
-
-
-
+Thankfully due to the generous steps and comprehensive explanations provided in every file and project there were close to no challenges faced, except for an edge case or two when handling the writing or reading data if it were to read less bytes than it is supposed to, simply to fix that was to check if the bytes read was lower than a nonegative while in the loop.
