@@ -12,7 +12,7 @@ A simple file copy utility implemented in C using system calls.
   ├── Makefile
   └── README.md
 ```
-
+## Design of ```mycp```
 ## Files
 
 - **file_ops.c / file_ops.h**: Functions for file operations (open, read, write, close).
