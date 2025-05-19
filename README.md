@@ -25,8 +25,17 @@ mycp_project/
 make
 ```
 
-## Usage
+## Usage & Example
 
 ```sh
 ./mycp <source_file> <destination_file>
+
+./mycp file1.txt file2.txt
 ```
+
+## Test Script
+'''sh
+# give permissions
+chmod u+x test_copy.sh
+./test_copy.sh
+'''
