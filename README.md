@@ -22,10 +22,10 @@ The design behind the utility is based on C system calls such as: ```(open, read
 
 ## System Calls Used in ```mycp```:
 
-open() – to open files.
-read() – to read data from the source file.
-write() – to write data to the destination file.
-close() – to close the file descriptors.
+- open() – to open files.
+- read() – to read data from the source file.
+- write() – to write data to the destination file.
+- close() – to close the file descriptors.
 ## Files
 
 - **file_ops.c / file_ops.h**: Functions for file operations (open, read, write, close).
