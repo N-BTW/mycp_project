@@ -75,4 +75,25 @@ mycp is 4 times faster than cp because it uses less system calls (38 vs 101).
 
   mycp keeps it simple: Uses basic read/write for copying.
 
+## Valgrind Memory Leak Checks
+There were no issues with memory loss or leaks when tested through valgrind using ```valgrind --leak-check=full ./mycp -f
+file1.txt file2.txt```.
+This was the valgrind output:
+```
+==22655== Memcheck, a memory error detector
+==22655== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==22655== Using Valgrind-3.23.0 and LibVEX; rerun with -h for copyright info
+==22655== Command: ./mycp -f file1.txt file2.txt
+==22655== 
+==22655== 
+==22655== HEAP SUMMARY:
+==22655==     in use at exit: 0 bytes in 0 blocks
+==22655==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==22655== 
+==22655== All heap blocks were freed -- no leaks are possible
+==22655== 
+==22655== For lists of detected and suppressed errors, rerun with: -s
+==22655== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
+
 
