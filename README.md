@@ -63,11 +63,11 @@ The design behind the utility is based on C system calls such as: ```(open, read
 ```
 
 ## Test Script Verify
-It will output 
+It will output:
 
 ```Test Passed: file copied successfully.``` 
 
-on sucessful and otherwise if any issues happen
+on sucessful and otherwise if files do not match.
 
 ## System Call Analysis
 ```sh
