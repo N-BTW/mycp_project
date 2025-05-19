@@ -35,7 +35,7 @@ make
 
 ## Test Script
 '''sh
-# give permissions
+#give permissions
 chmod u+x test_copy.sh
 ./test_copy.sh
 '''
