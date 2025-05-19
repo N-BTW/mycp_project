@@ -13,6 +13,19 @@ A simple file copy utility implemented in C using system calls.
   └── README.md
 ```
 ## Design of ```mycp```
+The design behind the utility is based on C system calls such as: ```(open, read, write, close)```
+- Opening the source file for reading.
+- Creating/Opening the destination file for writing.
+- Reading data from the source file in chunks (using a buffer).
+- Writing the read data to the destination file.
+- Closing both files after the operation is complete.
+
+## System Calls Used in ```mycp```:
+
+open() – to open files.
+read() – to read data from the source file.
+write() – to write data to the destination file.
+close() – to close the file descriptors.
 ## Files
 
 - **file_ops.c / file_ops.h**: Functions for file operations (open, read, write, close).
