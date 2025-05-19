@@ -6,11 +6,16 @@ A simple file copy utility implemented in C using system calls.
 
 ```
   mycp_project/
-  ├── file_ops.c
-  ├── file_ops.h
-  ├── mycp.c
-  ├── Makefile
-  └── README.md
+|── Makefile # Build system for the project
+├── README.md # Project documentation
+├── mycp.h # Header file for the copy utility
+├── mycp.c # Implements the file copy logic
+├── file_ops.h # Header file for file operations
+├── file_ops.c # Implements file operations
+├── main.c # Driver Program
+├── test_copy.sh # Shell script to test mycp
+├── system_call_analysis.sh # Script to analyze system calls
+├── file1.txt # File to be copied
 ```
 ## Design of ```mycp```
 The design behind the utility is based on C system calls such as: ```(open, read, write, close)```
