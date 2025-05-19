@@ -34,8 +34,8 @@ make
 ```
 
 ## Test Script
-'''sh
+```sh
 #give permissions
 chmod u+x test_copy.sh
 ./test_copy.sh
-'''
+```
