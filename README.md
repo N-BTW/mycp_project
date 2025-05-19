@@ -78,6 +78,7 @@ mycp is 4 times faster than cp because it uses less system calls (38 vs 101).
 ## Valgrind Memory Leak Checks
 There were no issues with memory loss or leaks when tested through valgrind using ```valgrind --leak-check=full ./mycp -f
 file1.txt file2.txt```.
+
 This was the valgrind output:
 ```
 ==22655== Memcheck, a memory error detector
@@ -96,4 +97,9 @@ This was the valgrind output:
 ==22655== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
 
+## Challenges Faced In Development
+Thankfully due to the generous steps and comprehensive explanations provided in every file and project there were close to no challenges faced, except for an edge case or two when handling the writing or reading data if it were to read less bytes than it is supposed to.
 
+## Team Contributions
+Meshari Alluhaibi: Handled the file_ops .c and .h as well as the documentation.
+Abdulrahman
