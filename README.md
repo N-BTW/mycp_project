@@ -78,7 +78,7 @@ on sucessful and otherwise if files do not match.
 
 ## System Call Analysis (In Depth)
 1. Speed:
-mycp is 4 times faster than cp because it uses less system calls (38 vs 101).
+mycp is 3 times faster than cp because it uses less system calls (38 vs 101).
 
 2. System Calls:
 
